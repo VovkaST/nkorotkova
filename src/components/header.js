@@ -21,7 +21,7 @@ export const Header = () => {
                         <a className={classes.block__nav__menu__item__link} href="#">Контакты</a>
                     </li>
                     <li className={classes.block__nav__menu__item}>
-                        <a className={classes.block__nav__menu__item__link} href="#">Telegram-канал</a>
+                        <a className={classes.block__nav__menu__item__link} href="https://t.me/+IEQoSF2D7RRmYWNi" target="_blank">Telegram-канал</a>
                     </li>
                 </ul>
             </nav>
