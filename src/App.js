@@ -1,12 +1,12 @@
-import React from "react";
+import React, {Fragment} from "react";
 import "./main.scss";
 import {Header} from "./components/header";
 
 class App extends React.Component {
     render() {
-        return <div>
+        return <Fragment>
             <Header/>
-        </div>
+        </Fragment>
     };
 }
 
