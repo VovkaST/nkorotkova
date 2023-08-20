@@ -1,30 +1,30 @@
 import React from "react";
-import appCLasses from "../app.module.scss"
+import appCLasses from "../../app.module.scss"
 import classes from "./header.module.scss";
 
 export const Header = () => {
     return <div className={classes.block}>
         <div className={appCLasses.content}>
-            <a href="%PUBLIC_URL%/">
+            <a href="/">
                 <div className={classes.block__name}>Korotkova Nataliya</div>
             </a>
             <nav className={classes.block__nav}>
                 <ul className={classes.block__nav__menu}>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
-                           href="%PUBLIC_URL%/#">Услуги</a>
+                           href="/#">Услуги</a>
                     </li>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
-                           href="%PUBLIC_URL%/#">Отзывы</a>
+                           href="/#">Отзывы</a>
                     </li>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
-                           href="%PUBLIC_URL%/#">Обо мне</a>
+                           href="/#">Обо мне</a>
                     </li>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
-                           href="%PUBLIC_URL%/#">Контакты</a>
+                           href="/#">Контакты</a>
                     </li>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
