@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto&display=swap');
+
+.block {
+
+  .block__name {
+    display: flex;
+    width: 7.125rem;
+    height: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    a {
+      font-family: 'Allura', cursive;
+      color: #FFF;
+      text-align: center;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 85%; /* 1.7rem */
+      text-decoration: none;
+    }
+  }
+
+  .block__nav {
+    //width: 51.125rem;
+    height: 1.625rem;
+    flex-shrink: 0;
+
+    .block__nav__menu {
+      display: flex;
+      list-style: none;
+
+      .block__nav__menu__item {
+        width: 10rem;
+        height: 1.625rem;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        text-align: center;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        .block__nav__menu__item__link {
+          color: #E8E8E8;
+          text-decoration: none;
+        }
+
+        .block__nav__menu__item__link:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .block__logo {
+    display: flex;
+    flex-shrink: 0;
+  }
+}
