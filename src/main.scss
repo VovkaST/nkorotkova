@@ -1,3 +1,8 @@
+:root {
+    --light-font: #E8E8E8;
+    --background-purple: #501176;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,5 +16,5 @@ a {
 }
 
 body {
-  background: #501176;
+  background: var(--background-purple);
 }

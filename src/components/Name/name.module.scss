@@ -1,0 +1,36 @@
+.left_block {
+}
+
+.right_block {
+  .text_block {
+    margin-top: 7rem;
+  }
+}
+
+.main_photo {
+  max-height: 490px;
+  overflow: hidden;
+}
+
+.main_text {
+  display: flex;
+  width: 30rem;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--light-font);
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.subtext {
+  color: var(--light-font);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.35rem;
+  text-transform: uppercase;
+}
