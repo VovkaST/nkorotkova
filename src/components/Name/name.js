@@ -1,10 +1,10 @@
-import React from "react";
-import appCLasses from "../../app.module.scss";
+import React, {Fragment} from "react";
 import classes from "./name.module.scss"
+import {buildContent} from "../../hoc/content";
 
-export const Name = () => {
-    return <div>
-        <div className={appCLasses.content}>
+const Name = () => {
+    return (
+        <Fragment>
             <div className={classes.left_block}>
                 <div className={classes.main_photo}>
                     <img src="/photo_main.png" alt="Короткова Наталья"/>
@@ -16,6 +16,8 @@ export const Name = () => {
                     <div className={classes.subtext}>Арканолог. Психолог.</div>
                 </div>
             </div>
-        </div>
-    </div>
+        </Fragment>
+    )
 }
+
+export default buildContent(Name)
