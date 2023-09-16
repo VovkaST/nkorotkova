@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./blockFeedback.module.scss";
+import horizontalBlockClasses from "../../../hoc/HorizontalBlock/horizontalBlock.module.scss";
 import {HorizontalBlock} from "../../../hoc/HorizontalBlock/horizontalBlock";
 import {buildContent} from "../../../hoc/content";
 import {Input} from "../../Input/input";
@@ -28,4 +29,11 @@ const blockFeedback = () => {
     )
 }
 
-export default HorizontalBlock(buildContent(blockFeedback, "block_feedback", "feedback_content"))
+export default HorizontalBlock(
+    buildContent(
+        blockFeedback,
+        "block_feedback",
+        "feedback_content"
+    ),
+    horizontalBlockClasses.horizontal_block__last
+)

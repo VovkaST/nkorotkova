@@ -12,7 +12,11 @@
   justify-content: center;
   background-color: var(--background-light);
 
-  .horizontal_block__header_block {
+  &__last {
+    margin-bottom: 0;
+  }
+
+  &__header_block {
     @include horizontal_block__header_block();
 
     .block_header {
@@ -24,8 +28,4 @@
       text-transform: uppercase;
     }
   }
-}
-
-.horizontal_block:nth-of-type(1) {
-  margin-top: 4rem;
 }
