@@ -5,6 +5,7 @@ import {Header} from "./components/Header/header";
 import Name from "./components/Name/name";
 import BlockThanks from "./components/Blocks/BlockThanks/blockThanks";
 import BlockFeedback from "./components/Blocks/BlockFeedback/blockFeedback";
+import Footer from "./components/Footer/footer";
 
 class App extends React.Component {
     render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
             <BlockAbout/>
             <BlockThanks/>
             <BlockFeedback/>
+            <Footer/>
         </Fragment>
     };
 }
