@@ -1,0 +1,14 @@
+.button {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 1.5rem;
+  background: var(--button-background);
+  filter: drop-shadow(0 0.5rem 10px var(--botton-shadow-color));
+  flex-shrink: 0;
+  color: var(--button-font-color);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

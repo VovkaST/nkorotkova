@@ -1,22 +1,28 @@
 :root {
-    --font-light: #E8E8E8;
-    --background-purple: #501176;
-    --background-light: #E8E8E8;
-    --horizontal-block-light-header-color: #5B0437;
-    --horizontal-block-light-color: #151E28;
-    --photo-round-background: #D9D9D9;
+  --font-light: #E8E8E8;
+  --background-purple: #501176;
+  --background-light: #E8E8E8;
+  --horizontal-block-light-header-color: #5B0437;
+  --horizontal-block-light-color: #151E28;
+  --photo-round-background: #D9D9D9;
+  --button-background: #C2D992;
+  --button-font-color: #4A6B05;
+  --botton-shadow-color: #0000003F;
+  --thanks-top-block-font-color: #432059;
+  --thanks-sub-text-font-color: #8E43BB;
+  --thanks-font-color: #5B0437;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: Roboto, serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Roboto, serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
