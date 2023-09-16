@@ -9,7 +9,7 @@ export const Header = () => {
     return <div className={classes.block}>
         <div className={appCLasses.content}>
             <a href="/">
-                <div className={classes.block__name}>Korotkova Nataliya</div>
+                <div className={classes.block__name}>{state.name.eng}</div>
             </a>
             <nav className={classes.block__nav}>
                 <ul className={classes.block__nav__menu}>

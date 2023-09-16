@@ -12,6 +12,11 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            name: {
+                ru: "Короткова Наталья",
+                eng: "Korotkova Nataliya",
+                description: "Арканолог. Психолог."
+            },
             contacts: {
                 city: "г. Москва",
                 phone: "+7 (968) 628-16-81",
