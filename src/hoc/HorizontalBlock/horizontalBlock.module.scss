@@ -6,7 +6,7 @@
 
 .horizontal_block {
   height: 36rem;
-  margin: 8rem 0;
+  margin: 4rem 0 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,4 +24,8 @@
       text-transform: uppercase;
     }
   }
+}
+
+.horizontal_block:nth-of-type(1) {
+  margin-top: 4rem;
 }
