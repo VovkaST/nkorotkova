@@ -1,0 +1,53 @@
+@mixin input_block {
+  border-radius: 0.3rem;
+  border: 1px solid var(--input-border-color);
+  @content;
+}
+
+@mixin input($height) {
+  background-color: var(--font-white);
+  border: none;
+  height: $height;
+  width: 100%;
+  padding: 1rem;
+}
+
+.input_label {
+  margin-bottom: 0.3rem;
+  color: var(--input-label-font-color);
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04688rem;
+}
+
+.input_block {
+  @include input_block;
+
+  input, textarea {
+
+  }
+}
+
+.input_block_textarea {
+  @include input_block;
+
+  textarea {
+    @include input(10.9rem);
+    resize: none;
+  }
+}
+
+.input_block_input {
+  @include input_block() {
+    height: 3.75rem;
+    overflow: hidden;
+  }
+;
+
+  input {
+    @include input(100%);
+  }
+
+}

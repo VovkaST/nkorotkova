@@ -23,7 +23,7 @@ const BlockThanks = () => {
                     </div>
                     <p className={classes.subText}>Сумма, которую Вы считаете достаточной</p>
                     <div className={classes.buttonBlock}>
-                        <Button text="Отправить"/>
+                        <Button text="Спасибо"/>
                     </div>
                 </div>
             </div>

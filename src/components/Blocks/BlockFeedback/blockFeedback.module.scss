@@ -1,0 +1,36 @@
+@mixin block {
+  width: 50%;
+}
+
+.feedback_block {
+  width: 100%;
+
+  .feedback_form_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .feedback_form_block_left_block {
+      @include block;
+
+      padding-right: 1rem;
+    }
+
+    .feedback_form_block_right_block {
+      @include block;
+
+      padding-left: 1rem;
+    }
+
+    .input_block {
+      margin: 1rem 0 2rem;
+    }
+
+    .button_block {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
