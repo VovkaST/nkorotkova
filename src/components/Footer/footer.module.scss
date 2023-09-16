@@ -41,6 +41,14 @@
     .footer_block__contacts_list__item {
       margin: .6rem 0;
       font-size: 1.25rem;
+
+      a {
+        color: var(--font-light);
+      }
+
+      a:hover {
+        text-decoration: underline solid;
+      }
     }
   }
 

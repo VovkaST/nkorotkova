@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import appCLasses from "../../app.module.scss"
 import classes from "./header.module.scss";
+import {HookContext} from "../Context/hookContext";
 
 export const Header = () => {
+    const state = useContext(HookContext)
+
     return <div className={classes.block}>
         <div className={appCLasses.content}>
             <a href="/">
@@ -28,7 +31,7 @@ export const Header = () => {
                     </li>
                     <li className={classes.block__nav__menu__item}>
                         <a className={classes.block__nav__menu__item__link}
-                           href="https://t.me/+IEQoSF2D7RRmYWNi"
+                           href={state.links.telegram}
                            target="_blank"
                            rel="noreferrer">Telegram-канал</a>
                     </li>
