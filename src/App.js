@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import "./main.scss";
 import BlockAbout from "./components/Blocks/BlockAbout/blockAbout";
 import {Header} from "./components/Header/header";
