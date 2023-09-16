@@ -1,13 +1,19 @@
+@mixin horizontal_block__header_block() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .horizontal_block {
   height: 36rem;
   margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--background-light);
 
   .horizontal_block__header_block {
-    display: flex;
-    height: 8.9rem;
-    flex-direction: column;
-    justify-content: center;
+    @include horizontal_block__header_block();
 
     .block_header {
       color: var(--horizontal-block-light-header-color);
