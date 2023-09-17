@@ -74,5 +74,11 @@
 
       background-image: url("/../public/images/social/whatsapp.svg");
     }
+
+    &__instagram {
+      @include social_item;
+
+      background-image: url("/../public/images/social/instagram.svg");
+    }
   }
 }

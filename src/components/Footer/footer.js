@@ -23,15 +23,20 @@ const Footer = () => {
             </div>
             <div className={classes.footer_block__side_block}>
                 <ul className={classes.footer_block__socials_list}>
-                    <li className={classes.footer_block__socials_list__telegram}>
-                        <a href={state.links.telegram} target="_blank" rel="noreferrer">&nbsp;</a>
+                    <li className={classes.footer_block__socials_list__instagram}>
+                        <a href={state.links.instagram} target="_blank" rel="noreferrer">&nbsp;</a>
                     </li>
                     <li className={classes.footer_block__socials_list__vk}>
                         <a href={state.links.vk} target="_blank" rel="noreferrer">&nbsp;</a>
                     </li>
+                    <li className={classes.footer_block__socials_list__telegram}>
+                        <a href={state.links.telegram} target="_blank" rel="noreferrer">&nbsp;</a>
+                    </li>
+
                     <li className={classes.footer_block__socials_list__whatsapp}>
                         <a href={state.links.whatsapp} target="_blank" rel="noreferrer">&nbsp;</a>
                     </li>
+
                 </ul>
             </div>
         </div>
