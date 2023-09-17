@@ -2,7 +2,7 @@
 
 .block {
 
-  .block__name {
+  &__name {
     display: flex;
     width: 7.125rem;
     height: 3rem;
@@ -19,15 +19,15 @@
     line-height: 85%; /* 1.7rem */
   }
 
-  .block__nav {
+  &__nav {
     height: 1.625rem;
     flex-shrink: 0;
 
-    .block__nav__menu {
+    &__menu {
       display: flex;
       list-style: none;
 
-      .block__nav__menu__item {
+      &__item {
         width: 10rem;
         height: 1.625rem;
         flex-direction: column;
@@ -39,11 +39,11 @@
         font-weight: 400;
         line-height: normal;
 
-        .block__nav__menu__item__link {
+        &__link {
           color: var(--font-light);
         }
 
-        .block__nav__menu__item__link:hover {
+        &__link:hover {
           text-decoration: underline;
         }
       }

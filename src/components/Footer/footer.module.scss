@@ -38,7 +38,7 @@
   .footer_block__contacts_list {
     @include list;
 
-    .footer_block__contacts_list__item {
+    &__item {
       margin: .6rem 0;
       font-size: 1.25rem;
 
@@ -57,19 +57,19 @@
       display: flex;
     }
 
-    .footer_block__socials_list__telegram {
+    &__telegram {
       @include social_item;
 
       background-image: url("/../public/images/social/telegram.svg");
     }
 
-    .footer_block__socials_list__vk {
+    &__vk {
       @include social_item;
 
       background-image: url("/../public/images/social/vk.svg");
     }
 
-    .footer_block__socials_list__whatsapp {
+    &__whatsapp {
       @include social_item;
 
       background-image: url("/../public/images/social/whatsapp.svg");

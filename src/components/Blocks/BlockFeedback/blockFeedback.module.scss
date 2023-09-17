@@ -10,13 +10,13 @@
     flex-direction: row;
     justify-content: space-around;
 
-    .feedback_form_block_left_block {
+    &_left_block {
       @include block;
 
       padding-right: 1rem;
     }
 
-    .feedback_form_block_right_block {
+    &_right_block {
       @include block;
 
       padding-left: 1rem;

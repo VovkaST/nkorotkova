@@ -32,10 +32,10 @@
 
   .block_info_content {
     @include block_styles(-3.5em) {
-      .block_info_content__item {
+      &__item {
         @include block_info_content__item;
       }
-      .block_info_content__round {
+      &__round {
         @include block_info_content__round(31.25rem);
       }
     }
